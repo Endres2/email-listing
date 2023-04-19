@@ -28,7 +28,7 @@ app.post("/", (req,res)=>{
             {
                 email_address: email,
                 status: "subscribed",
-                merge_field:{
+                merge_fields:{
                     FNAME: nameFirst,
                     LNAME: nameLast
                 }
